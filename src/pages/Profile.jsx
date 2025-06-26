@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { getUserIdFromToken } from "../utils/decodeToken";
 import UserLink from "../components/UserLink";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 const Profile = () => {
   const { id } = useParams();
